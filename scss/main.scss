@@ -309,11 +309,11 @@ img {
   &-c {
     .about-logos {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, 2fr);
       grid-gap: 2rem;
 
       img {
-        width: 70%;
+        width: 50%;
       }
     }
   }
@@ -349,6 +349,9 @@ img {
 
 // Contact Page
 #contact {
+  .fab {
+    color: white;
+  }
   &-a {
     .text-fields {
       display: grid;
